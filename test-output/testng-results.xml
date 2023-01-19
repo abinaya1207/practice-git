@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3598" started-at="2023-01-06T15:36:49 IST" finished-at="2023-01-06T15:36:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3598" started-at="2023-01-06T15:36:49 IST" finished-at="2023-01-06T15:36:53 IST">
+      <class name="restassured.restassured.JiraTest">
+        <test-method status="PASS" signature="addLogin()[pri:0, instance:restassured.restassured.JiraTest@853265]" name="addLogin" duration-ms="3150" started-at="2023-01-06T15:36:49 IST" finished-at="2023-01-06T15:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLogin -->
+        <test-method status="PASS" signature="addComments()[pri:2, instance:restassured.restassured.JiraTest@853265]" name="addComments" duration-ms="178" started-at="2023-01-06T15:36:52 IST" finished-at="2023-01-06T15:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComments -->
+        <test-method status="PASS" signature="getIssues()[pri:4, instance:restassured.restassured.JiraTest@853265]" name="getIssues" duration-ms="200" started-at="2023-01-06T15:36:52 IST" finished-at="2023-01-06T15:36:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssues -->
+      </class> <!-- restassured.restassured.JiraTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
